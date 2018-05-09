@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.ds.springexample</groupId>
-    <artifactId>spring-example</artifactId>
+    <groupId>it.gis.ats.vemallik-sdaas.vemallikmaven</groupId>
+    <artifactId>tomcat7</artifactId>
     <packaging>war</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <name>spring-example</name>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>ROOT</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>3.0.5.RELEASE</spring.version>
