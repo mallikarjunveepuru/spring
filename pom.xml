@@ -19,6 +19,11 @@
     <dependencies>
         <!-- Bean Validation Dependencies -->
         <dependency>
+            <groupId>it.gis.ats.vemallik-sdaas.vemallikmaven</groupId>
+            <artifactId>tomcat7</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
             <version>1.0.0.GA</version>
