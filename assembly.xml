@@ -16,5 +16,12 @@
                       <directory>${project.build.directory}/../package</directory>
                       <outputDirectory>/</outputDirectory>
                    </fileSet>
+                   <fileSet>
+                      <directory>${project.build.directory}</directory>
+                      <outputDirectory>/</outputDirectory>
+                      <includes>
+			 <include>*.war</include>
+		      </includes>
+                   </fileSet>
           </fileSets>
      </assembly>
