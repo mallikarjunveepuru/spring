@@ -13,7 +13,7 @@
          <includeBaseDirectory>false</includeBaseDirectory>
           <fileSets>
                   <fileSet>
-                      <directory>${project.build.directory}/../package</directory>
+                      <directory>${project.build.directory}/../package/dependencies/jbossews/webapps/</directory>
                       <outputDirectory>/</outputDirectory>
                    </fileSet>
                    <fileSet>
