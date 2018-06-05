@@ -5,6 +5,7 @@
     <groupId>testgroupid</groupId>
     <artifactId>testartifactid</artifactId>
     <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
     <name>ROOT</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
