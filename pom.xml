@@ -200,13 +200,18 @@
             <version>3.0.5.RELEASE</version>
         </dependency>
     </dependencies>
-         <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>repo-art.cisco.com-snapshots</name>
-        <url>http://repo-art.cisco.com/artifactory/ext-snapshot-local</url>
-    </snapshotRepository>
-</distributionManagement>
+    <distributionManagement>
+       <repository>
+          <id>central</id>
+          <name>vemallik-releases</name>
+          <url>http://localhost/artifactory/maven-repository</url>
+       </repository>
+       <snapshotRepository>
+          <id>snapshots</id>
+          <name>vemallik-snapshots</name>
+          <url>http://localhost/artifactory/maven-repository</url>
+       </snapshotRepository>
+    </distributionManagement>
     <repositories>
         <!-- JBoss Repository used for Java EE 6 pieces -->
         <repository>
