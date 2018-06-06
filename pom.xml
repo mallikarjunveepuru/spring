@@ -201,10 +201,15 @@
         </dependency>
     </dependencies>
          <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>vemallik-releases</name>
+        <url>http://localhost/artifactory/artifactory-test</url>
+    </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>repo-art.cisco.com-snapshots</name>
-        <url>http://repo-art.cisco.com/artifactory/ext-snapshot-local</url>
+        <name>vemallik-snapshots</name>
+        <url>http://localhost/artifactory/artifactory-test</url>
     </snapshotRepository>
 </distributionManagement>
     <repositories>
